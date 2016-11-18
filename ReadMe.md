@@ -3,12 +3,14 @@
 
 
 /////////////////////PURPOSE///////////////////////////////////////////////
+
 The purpose of this program is to sort large amounts of data numbers by
 three different sorting methods. For this particular program, data 
 can be sorted through bubble sort, insertion sort, and radix sort,
 depending on the user. 
 
 //////////////////////FILES////////////////////////////////////////////////
+
 
 	-sortnums.cpp: This file contains the main and the functions that
 	 are needed for sorting. All sorting functions are in this file. 
