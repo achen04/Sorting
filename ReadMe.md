@@ -3,43 +3,20 @@
 
 
 /////////////////////PURPOSE///////////////////////////////////////////////
-1.  The purpose of this program is to sort large amounts of data numbers by
-    three different sorting methods. For this particular program, data 
-    can be sorted through bubble sort, insertion sort, and radix sort,
-    depending on the user. 
+The purpose of this program is to sort large amounts of data numbers by
+three different sorting methods. For this particular program, data 
+can be sorted through bubble sort, insertion sort, and radix sort,
+depending on the user. 
 
 //////////////////////FILES////////////////////////////////////////////////
-2.  
-	-IntVector.h: This file defines the functions that are used in the
-	 Intvector.cpp file, which are functions to create a dynamic array
-	 that makes up the vector. 
-
-	-IntVector.cpp: This file contains the functions that are needed
-	 to create the vector, which includes add, expand, set, and get. 
 
 	-sortnums.cpp: This file contains the main and the functions that
 	 are needed for sorting. All sorting functions are in this file. 
 
-//////////////////////TO COMPILE//////////////////////////////////////////
-3.  use included Makefile
-
-////////////////////////DATA STRUCTURES//////////////////////////////////
-4.  The main data structure used in this assignment is a dynamic array.
-The dynamic array is what the IntVector is. Thus, the vector of numbers
-is in fact a dynamic array. A dynamic array is first created in 
-the constructor. It can expand when the capacity is full. Expansion is done
-by first creating a bigger array (in this case it is twice the size of the
-original capacity), then copying data from the old to the new array, and 
-then deleting the old array, and now setting the pointer to the new array, 
-and finally updating the capacity. When the program is done running, the 
-destructor deletes the dynamic array as it is no longer needed. A dynamic
-array is useful in this case as it is not known how many numbers/how 
-much data is being inputed, and thus an array that can dynamically expand
-according to the number of inputed numbers is ideal.
-
 ////////////////////////////ALGORITHM//////////////////////////////////////
-5.  
+
 ------------------------BUBBLE SORT----------------------------------------
+
 The first sort is the bubble sort. The following is the algorithm for
 bubble sort:
 
@@ -73,6 +50,7 @@ https://en.wikipedia.org/wiki/Bubble_sort
 http://www.sorting-algorithms.com/bubble-sort
 
 --------------------------INSERTION SORT-----------------------------------
+
 The second sort is insertion sort. The following is the algorithm:
 
 	-Compare the first two elements in the array.
@@ -102,6 +80,7 @@ http://www.programiz.com/article/insertion-sort-algorithm-programming
 www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm
 
 -------------------------------RADIX SORT----------------------------------
+
 The third sort is radix sort. The following is the algorithm:
 
 	-Find the maximum value in the vector array to determine what the 
@@ -150,7 +129,5 @@ https://www.cs.auckland.ac.nz/software/AlgAnim/radixsort.html
 http://www.cprogramming.com/tutorial/computersciencetheory/radix.html
 http://stackoverflow.com/questions/36178085/explaining-radix-sort
 
------------------------ADDITIONAL HELP-----------------------------------
-6.  A TA from Tufts University has helped me with this assignement. 
 
 
