@@ -151,6 +151,6 @@ http://www.cprogramming.com/tutorial/computersciencetheory/radix.html
 http://stackoverflow.com/questions/36178085/explaining-radix-sort
 
 -----------------------ADDITIONAL HELP-----------------------------------
-6.  A TA has helped me with this assignement. 
+6.  A TA from Tufts University has helped me with this assignement. 
 
 
